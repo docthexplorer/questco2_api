@@ -11,5 +11,5 @@ Carbon Quest is a gamified web application that helps streamline and keep tracks
 ### Links
 
 - 🔗 [Carbon Quest API](https://questCO2-api.onrender.com)
-- 🔗 [Source Code](https://github.com/docthexplorer/carbon_quest_server)
-- 🔗 [Front End Source Code](https://github.com/docthexplorer/carbon_quest_client)
+- 🔗 [Source Code](https://github.com/docthexplorer/questco2_api)
+- 🔗 [Client App Source Code](https://github.com/docthexplorer/questco2)
