@@ -1,7 +1,7 @@
 const questData = [
   {
     title: "Bike to Work",
-    class: "fa-duotone fa-person-biking icon",
+    class: "fa-solid fa-person-biking icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -14,7 +14,7 @@ const questData = [
 
   {
     title: "Pick-up Trash",
-    class: "fa-duotone fa-trash icon",
+    class: "fa-solid fa-trash icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -27,7 +27,7 @@ const questData = [
 
   {
     title: "Recycle",
-    class: "fa-duotone fa-bin-bottles-recycle icon",
+    class: "fa-solid fa-recycle icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -40,7 +40,7 @@ const questData = [
 
   {
     title: "Plant a Tree ",
-    class: "fa-duotone fa-seedling icon",
+    class: "fa-solid fa-seedling icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -53,7 +53,7 @@ const questData = [
 
   {
     title: "Eat Plant-Based Food",
-    class: "fa-duotone fa-strawberry icon",
+    class: "fa-solid fa-apple-whole icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -66,7 +66,7 @@ const questData = [
 
   {
     title: "Take a Walk",
-    class: "fa-duotone fa-person-walking icon",
+    class: "fa-solid fa-person-walking icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -79,7 +79,7 @@ const questData = [
 
   {
     title: "Reuse Shopping Bag",
-    class: "fa-duotone fa-bag-shopping icon",
+    class: "fa-solid fa-bag-shopping icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -92,7 +92,7 @@ const questData = [
 
   {
     title: "Reuse Water Bottle",
-    class: "fa-duotone fa-bottle-water icon",
+    class: "fa-solid fa-bottle-water icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -105,7 +105,7 @@ const questData = [
 
   {
     title: "Buy From Local Store",
-    class: "fa-duotone fa-store icon",
+    class: "fa-solid fa-store icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -118,7 +118,7 @@ const questData = [
 
   {
     title: "Use Public Transport",
-    class: "fa-duotone fa-taxi-bus icon",
+    class: "fa-solid fa-bus icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -131,7 +131,7 @@ const questData = [
 
   {
     title: "Drink Tap Water",
-    class: "fa-duotone fa-glass-water-droplet icon",
+    class: "fa-solid fa-glass-water-droplet icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
@@ -144,7 +144,7 @@ const questData = [
 
   {
     title: "Donate Unwanted Items",
-    class: "fa-duotone fa-gifts icon",
+    class: "fa-solid fa-gifts icon",
     questProgress: [
       {id: "0", progress: false },
       {id: "1", progress: false },
