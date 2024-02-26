@@ -1,4 +1,5 @@
 const allowedOrigins = [
-    "https://questco2.onrender.com"
+    "https://www.questco2.fullstack.name.ng",
+    "https://questco2.fullstack.name.ng"
 ];
 module.exports = allowedOrigins;

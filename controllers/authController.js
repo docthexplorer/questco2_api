@@ -25,7 +25,7 @@ const userAuth = async (req, res) => {
           const refreshToken = jwt.sign(
             { username: foundUser.username },
             process.env.REFRESH_TOKEN_SECRETE,
-            { expiresIn: "3d" }
+            { expiresIn: "2d" }
           );
           // save to database the refreshToken, in foundUser document of User Schema.
           foundUser.refreshToken = refreshToken;
@@ -33,9 +33,9 @@ const userAuth = async (req, res) => {
           return res
             .cookie("jwt", refreshToken, {
               httpOnly: true,
-              sameSite: "None",
+              sameSite: "Strict",
               secure: true,
-              maxAge: 24 * 60 * 60 * 1000,
+              maxAge: 2 * 24 * 60 * 60 * 1000,
             })
             .json({ accessToken });
         } else {
